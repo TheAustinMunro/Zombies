@@ -1,0 +1,8 @@
+ErrorDocument 404 /404.php
+Options +FollowSymLinks
+Options -Indexes
+RewriteEngine On
+   
+##### Admin #####
+RewriteRule ^bad-location/$ index.php [L]
+RewriteRule ^bad-zombies/$ index.php [L]
